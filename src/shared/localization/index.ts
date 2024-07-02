@@ -7,6 +7,8 @@ const translations = new LocalizedStrings({
 
     eventDetails: "Детали события",
     backToHome: "Обратно на главную",
+    date: "Дата:",
+    description: "Подробное описание:",
   },
   en: {
     hello: "Hello",
@@ -14,6 +16,8 @@ const translations = new LocalizedStrings({
 
     eventDetails: "Event Details",
     backToHome: "Go back to Home",
+    date: "Date:",
+    description: "Description:",
   },
 });
 

@@ -7,11 +7,9 @@ interface Style {
   container: ViewStyle;
   descriptionTextStyle: TextStyle;
   contentContainer: ViewStyle;
-  languageContainer: ViewStyle;
-  languageColorStyle: ViewStyle;
-  starContainer: ViewStyle;
+  dateContainer: ViewStyle;
+  dateColorStyle: ViewStyle;
   valueTextStyle: TextStyle;
-  forkContainer: ViewStyle;
 }
 
 export default (theme: ExtendedTheme) => {
@@ -34,11 +32,11 @@ export default (theme: ExtendedTheme) => {
       flexDirection: "row",
       alignItems: "center",
     },
-    languageContainer: {
+    dateContainer: {
       flexDirection: "row",
       alignItems: "center",
     },
-    languageColorStyle: {
+    dateColorStyle: {
       width: 15,
       height: 15,
       borderWidth: 1,
@@ -46,18 +44,8 @@ export default (theme: ExtendedTheme) => {
       borderColor: colors.borderColor,
       backgroundColor: colors.calpyse,
     },
-    starContainer: {
-      marginLeft: 16,
-      flexDirection: "row",
-      alignItems: "center",
-    },
     valueTextStyle: {
       marginLeft: 8,
-    },
-    forkContainer: {
-      marginLeft: 16,
-      flexDirection: "row",
-      alignItems: "center",
     },
   });
 };

@@ -15,6 +15,10 @@ export default (theme: ExtendedTheme) => {
       flex: 1,
       alignItems: "center",
       justifyContent: "center",
+      paddingTop: 50,
+      paddingBottom: 20,
+      paddingLeft: 10,
+      paddingRight: 10,
     },
     titleTextStyle: {
       fontSize: 32,

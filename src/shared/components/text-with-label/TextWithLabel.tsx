@@ -1,3 +1,4 @@
+import React from "react";
 import { View } from "react-native";
 import RNText from "@freakycoder/react-native-custom-text";
 import type { IRNTextProps } from "@freakycoder/react-native-custom-text";
@@ -11,7 +12,6 @@ interface ITextWrapperProps extends IRNTextProps {
 
 const TextWithLabel: React.FC<ITextWrapperProps> = ({
   color = "#757575",
-  children,
   label,
   text,
   ...rest

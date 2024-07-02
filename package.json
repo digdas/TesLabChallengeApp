@@ -29,9 +29,11 @@
     "@react-navigation/bottom-tabs": "^6.5.11",
     "@react-navigation/native": "^6.1.9",
     "@react-navigation/stack": "^6.3.20",
+    "@tanstack/react-query": "^5.49.2",
     "axios": "^1.6.7",
     "axios-hooks": "^5.0.2",
     "events": "^3.3.0",
+    "ky": "^1.4.0",
     "react": "18.2.0",
     "react-native": "^0.73.8",
     "react-native-dynamic-vector-icons": "1.3.0",
@@ -42,7 +44,8 @@
     "react-native-screens": "^3.29.0",
     "react-native-splash-screen": "^3.3.0",
     "react-native-vector-icons": "^10.0.3",
-    "react-navigation-helpers": "^2.3.1"
+    "react-navigation-helpers": "^2.3.1",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",

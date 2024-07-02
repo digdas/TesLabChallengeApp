@@ -13,6 +13,8 @@ export default (theme: ExtendedTheme) => {
       backgroundColor: colors.background,
       alignItems: "center",
       justifyContent: "center",
+      paddingLeft: 20,
+      paddingRight: 20,
     },
   });
 };

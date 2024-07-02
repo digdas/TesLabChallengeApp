@@ -10,6 +10,10 @@ const translations = new LocalizedStrings({
     date: "Дата:",
     description: "Подробное описание:",
 
+    aboutU: "О вас",
+    name: "Имя:",
+    email: "Email:",
+
     loadingError: "У нас проблемы. Попробуйте позже.",
   },
   en: {
@@ -20,6 +24,10 @@ const translations = new LocalizedStrings({
     backToHome: "Go back to Home",
     date: "Date:",
     description: "Description:",
+
+    aboutU: "About U",
+    name: "Name:",
+    email: "Email:",
 
     loadingError: "Error. Please try later",
   },

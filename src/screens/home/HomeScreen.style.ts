@@ -55,5 +55,8 @@ export default (theme: ExtendedTheme) => {
       width: 50,
       borderRadius: 30,
     },
+    activityIndicator: {
+      marginVertical: 24,
+    },
   });
 };

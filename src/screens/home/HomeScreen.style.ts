@@ -7,7 +7,6 @@ interface Style {
   titleTextStyle: TextStyle;
   buttonStyle: ViewStyle;
   buttonTextStyle: TextStyle;
-  header: ViewStyle;
   contentContainer: ViewStyle;
   listContainer: ViewStyle;
   profilePicImageStyle: ImageStyle;
@@ -43,12 +42,6 @@ export default (theme: ExtendedTheme) => {
     buttonTextStyle: {
       color: colors.white,
       fontWeight: "700",
-    },
-    header: {
-      width: ScreenWidth * 0.9,
-      flexDirection: "row",
-      alignItems: "center",
-      justifyContent: "space-between",
     },
     contentContainer: {
       flex: 1,

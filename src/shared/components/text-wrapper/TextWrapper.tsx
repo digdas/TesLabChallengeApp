@@ -1,5 +1,4 @@
 import React from "react";
-import fonts from "@fonts";
 import RNText from "@freakycoder/react-native-custom-text";
 import type { IRNTextProps } from "@freakycoder/react-native-custom-text";
 
@@ -10,13 +9,12 @@ interface ITextWrapperProps extends IRNTextProps {
 }
 
 const TextWrapper: React.FC<ITextWrapperProps> = ({
-  fontFamily = fonts.montserrat.regular,
   color = "#757575",
   children,
   ...rest
 }) => {
   return (
-    <RNText fontFamily={fontFamily} color={color} {...rest}>
+    <RNText color={color} {...rest}>
       {children}
     </RNText>
   );

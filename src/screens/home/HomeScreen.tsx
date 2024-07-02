@@ -5,6 +5,7 @@ import {
   ActivityIndicator,
   RefreshControl,
 } from "react-native";
+import { useSelector } from "react-redux";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { useTheme } from "@react-navigation/native";
 import { useQuery } from "@tanstack/react-query";
@@ -16,8 +17,6 @@ import getList from "@services/events/getList";
 import EventDetailsModal from "./components/event-details/EventDetailsModal";
 import { Event } from "shared/models";
 
-const userName = "User";
-
 const HomeScreen: React.FC = () => {
   const theme = useTheme();
   const { colors } = theme;
@@ -25,6 +24,8 @@ const HomeScreen: React.FC = () => {
 
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState<Event | null>(null);
+
+  const userName = useSelector<any, string>((state) => state.user.name);
 
   // Намного лучше чем велосипед с redux, имхо
   const {

@@ -3,12 +3,14 @@ import { LogBox, StatusBar, useColorScheme } from "react-native";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import "react-native-gesture-handler";
 import SplashScreen from "react-native-splash-screen";
+import { Provider } from "react-redux";
+import { isAndroid } from "@freakycoder/react-native-helpers";
 
 /**
- * ? Local Imports
+ * Local Imports
  */
+import { store } from "shared/store";
 import Navigation from "./src/navigation";
-import { isAndroid } from "@freakycoder/react-native-helpers";
 
 LogBox.ignoreAllLogs();
 
@@ -32,7 +34,9 @@ const App = () => {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <Navigation />
+      <Provider store={store}>
+        <Navigation />
+      </Provider>
     </QueryClientProvider>
   );
 };

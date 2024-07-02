@@ -14,5 +14,11 @@ export default (theme: ExtendedTheme) => {
       alignItems: "center",
       justifyContent: "center",
     },
+    listContainer: {
+      marginTop: 8,
+    },
+    activityIndicator: {
+      marginVertical: 24,
+    },
   });
 };

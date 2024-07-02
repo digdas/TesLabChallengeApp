@@ -9,6 +9,8 @@ const translations = new LocalizedStrings({
     backToHome: "Обратно на главную",
     date: "Дата:",
     description: "Подробное описание:",
+
+    loadingError: "У нас проблемы. Попробуйте позже.",
   },
   en: {
     hello: "Hello",
@@ -18,6 +20,8 @@ const translations = new LocalizedStrings({
     backToHome: "Go back to Home",
     date: "Date:",
     description: "Description:",
+
+    loadingError: "Error. Please try later",
   },
 });
 

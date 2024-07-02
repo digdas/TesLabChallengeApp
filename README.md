@@ -189,14 +189,5 @@ sdk.dir=/Users/username/Library/Android/sdk
 
 ## Credits
 
-<span>Photo by <a href="https://unsplash.com/@sotti?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Shifaaz shamoon</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
+<span>Photo by <a href="https://unsplash.com/@svsokolov?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sergey Sokolov</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
 
-<span>Photo by <a href="https://unsplash.com/@jamie452?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jamie Street</a> on <a href="https://unsplash.com/s/photos/profile-picture?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></span>
-
-## Author
-
-FreakyCoder, kurayogun@gmail.com
-
-## License
-
-React Native Typescript Boilerplate is available under the MIT license. See the LICENSE file for more info.

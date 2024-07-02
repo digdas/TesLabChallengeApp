@@ -1,5 +1,6 @@
 import React from "react";
 import { LogBox, StatusBar, useColorScheme } from "react-native";
+import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import "react-native-gesture-handler";
 import SplashScreen from "react-native-splash-screen";
 
@@ -10,6 +11,8 @@ import Navigation from "./src/navigation";
 import { isAndroid } from "@freakycoder/react-native-helpers";
 
 LogBox.ignoreAllLogs();
+
+export const queryClient = new QueryClient();
 
 const App = () => {
   const scheme = useColorScheme();
@@ -28,9 +31,9 @@ const App = () => {
   }, [scheme, isDarkMode]);
 
   return (
-    <>
+    <QueryClientProvider client={queryClient}>
       <Navigation />
-    </>
+    </QueryClientProvider>
   );
 };
 

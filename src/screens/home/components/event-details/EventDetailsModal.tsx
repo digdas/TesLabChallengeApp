@@ -1,3 +1,4 @@
+import React from "react";
 import { useTheme } from "@react-navigation/native";
 import Modal from "@shared-components/modal/Modal";
 import TextWithLabel from "@shared-components/text-with-label/TextWithLabel";

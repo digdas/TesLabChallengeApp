@@ -2302,6 +2302,18 @@
   dependencies:
     "@sinonjs/commons" "^3.0.0"
 
+"@tanstack/query-core@5.49.1":
+  "integrity" "sha512-JnC9ndmD1KKS01Rt/ovRUB1tmwO7zkyXAyIxN9mznuJrcNtOrkmOnQqdJF2ib9oHzc2VxHomnEG7xyfo54Npkw=="
+  "resolved" "https://registry.npmjs.org/@tanstack/query-core/-/query-core-5.49.1.tgz"
+  "version" "5.49.1"
+
+"@tanstack/react-query@^5.49.2":
+  "integrity" "sha512-6rfwXDK9BvmHISbNFuGd+wY3P44lyW7lWiA9vIFGT/T0P9aHD1VkjTvcM4SDAIbAQ9ygEZZoLt7dlU1o3NjMVA=="
+  "resolved" "https://registry.npmjs.org/@tanstack/react-query/-/react-query-5.49.2.tgz"
+  "version" "5.49.2"
+  dependencies:
+    "@tanstack/query-core" "5.49.1"
+
 "@trivago/prettier-plugin-sort-imports@4.3.0":
   "integrity" "sha512-r3n0onD3BTOVUNPhR4lhVK4/pABGpbA7bW3eumZnYdKaHkf1qEC+Mag6DPbGNuuh0eG8AaYj+YqmVHSiGslaTQ=="
   "resolved" "https://registry.npmjs.org/@trivago/prettier-plugin-sort-imports/-/prettier-plugin-sort-imports-4.3.0.tgz"
@@ -5649,6 +5661,11 @@
   "resolved" "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   "version" "3.0.3"
 
+"ky@^1.4.0":
+  "integrity" "sha512-tPhhoGUiEiU/WXR4rt8klIoLdnTtyu+9jVKHd/wauEjYud32jyn63mzKWQweaQrHWxBQtYoVtdcEnYX1LosnFQ=="
+  "resolved" "https://registry.npmjs.org/ky/-/ky-1.4.0.tgz"
+  "version" "1.4.0"
+
 "leven@^3.1.0":
   "integrity" "sha512-qsda+H8jTaUaN/x5vzW2rzc+8Rw4TAQ/4KjB46IwK5VH+IlVeeeje/EoZRpiXvIqjFgK84QffqPztGI3VBLG1A=="
   "resolved" "https://registry.npmjs.org/leven/-/leven-3.1.0.tgz"
@@ -6959,7 +6976,7 @@
     "react-shallow-renderer" "^16.15.0"
     "scheduler" "^0.23.0"
 
-"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0-0 || ^17.0.0 || ^18.0.0", "react@^18.0.0 || ^17.0.0 || ^16.0.0 || ^15.6.0", "react@^18.2.0", "react@>=16", "react@>=16.8", "react@>=17.0.0", "react@>15.6.0", "react@18.2.0":
+"react@*", "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0-0 || ^17.0.0 || ^18.0.0", "react@^18.0.0", "react@^18.0.0 || ^17.0.0 || ^16.0.0 || ^15.6.0", "react@^18.2.0", "react@>=16", "react@>=16.8", "react@>=17.0.0", "react@>15.6.0", "react@18.2.0":
   "integrity" "sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ=="
   "resolved" "https://registry.npmjs.org/react/-/react-18.2.0.tgz"
   "version" "18.2.0"
@@ -8304,3 +8321,8 @@
   "integrity" "sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q=="
   "resolved" "https://registry.npmjs.org/yocto-queue/-/yocto-queue-0.1.0.tgz"
   "version" "0.1.0"
+
+"zod@^3.23.8":
+  "integrity" "sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g=="
+  "resolved" "https://registry.npmjs.org/zod/-/zod-3.23.8.tgz"
+  "version" "3.23.8"

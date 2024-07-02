@@ -27,13 +27,13 @@ const EventDetailsModal: React.FC<IEventDetailScreenProps> = (props) => {
       <TextWithLabel
         h2
         color={colors.text}
-        label={"Подробное описание:"}
+        label={T.description}
         text={data.description}
       />
       <TextWithLabel
         h2
         color={colors.text}
-        label={"Дата:"}
+        label={T.date}
         text={data.date.toLocaleString()}
       />
     </Modal>
